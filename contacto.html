@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de recetas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/Styles.css">
+</head>
+<body class="bg-success-subtle">
+    <nav class="navbar navbar-expand-lg bg-success" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"><img src="./Assets/Imagen de WhatsApp 2024-05-29 a las 16.51.00_2d5f2fd1.jpg" alt=""class="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="./index.html">Inicio</a>
+              <a class="nav-link" href="./recetario.html">Recetario</a>
+              <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <section class="conteiner">
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <h2>Contacto</h2>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Numero de telefono
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          11 2324-4056
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Redes sociales
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <button type="button" class="btn btn-dark"><a href="https://www.instagram.com/nacho_viazcan/">Instagram</a></button>
+                            <button type="button" class="btn btn-dark"><a href="https://www.linkedin.com/in/daniel-ignacio-viazcan-iba%C3%B1ez-3b3782201/">linkedin</a></button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Correo electrónico
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          daniel.ignacio.viazcan@gmail.com
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-6">
+                <h2>Sugerencias</h2>
+                <form>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Dirección de e-mail</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingresa tu e-mail">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Ingresa tu sugerencia</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section>
+      <footer>
+        <p>© 2024 Daniel Ignacio Viazcan Ibañez. Todos los derechos reservados.</p>
+      </footer>
+    </section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

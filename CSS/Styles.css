@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+.hero{
+background-image: url(../Assets/Fondo.jpg);
+height: 90vh;
+}
+.hero2{
+    background-image: url(../Assets/Fondo.jpg);
+    }
+.logo{
+    height: 80px;
+    width: 100px;
+}
+.fondo-texto{
+    background-color: rgba(0, 0, 0, 0.674);
+}
