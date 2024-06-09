@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Raleway", sans-serif;
+    
 }
 .hero{
 background-image: url(../Assets/Fondo.jpg);
@@ -18,4 +19,9 @@ height: 90vh;
 }
 .fondo-texto{
     background-color: rgba(0, 0, 0, 0.674);
+}
+.imagenes-galeria{
+    height: 200px;
+    width: 300px;
+    column-count: 3;
 }
