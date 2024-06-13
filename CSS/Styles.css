@@ -7,11 +7,11 @@
     
 }
 .hero{
-background-image: url(../Assets/Fondo.jpg);
+background-image: url(../assets/fondopagina.jpg);
 height: 90vh;
 }
 .hero2{
-    background-image: url(../Assets/Fondo.jpg);
+    background-image: url(../assets/fondopagina.jpg);
     }
 .logo{
     height: 80px;
